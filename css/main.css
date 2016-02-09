@@ -3,13 +3,12 @@
 div{
    width: 200px;
 	height: 200px;
-	border: 1px solid black;
-    margin: 10px;
-     float: left;
-
+	border: 2px solid #616060;
+  margin: 10px;
+  float: left;
 }
 
-div img{
+div img{  /* Ajusta las imagenes a los cuadros */
        width:100%;
        height:100%;
 
@@ -21,8 +20,38 @@ div img{
 
 .renglon{
 	    display:inline-block;
-        clear: left;
+      clear: left;
 }
  
+.desenfoque {
+-webkit-filter: blur(1px);
+filter: blur(2px);
+}
 
- }
+.brillo {
+-webkit-filter: brightness(50%);
+filter: brightness(50%);
+}
+
+.escalagrises {
+-webkit-filter: grayscale(100%);
+filter: grayscale(100%);
+}
+
+.sepia {
+-webkit-filter: sepia(80%);
+filter: sepia(80%);
+}
+
+.opacity {
+-webkit-filter: opacity(50%);
+filter: opacity(50%);
+}
+
+
+}
+
+
+
+
+
